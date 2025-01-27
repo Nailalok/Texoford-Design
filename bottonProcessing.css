@@ -1,0 +1,28 @@
+#process{
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background-color: #00ECFF;
+    border: 2.5px solid #393939;
+    border-right-color: #00ECFF;
+    animation: processing 2s infinite ease;
+    display: none;
+}
+@keyframes processing{
+    from{
+        rotate: 0deg;
+    }
+    to{
+        rotate: 360deg;
+    }
+}
+#process2{
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background-color: #F2F2F2;
+    border: 2.5px solid #393939;
+    border-right-color: #F2F2F2;
+    animation: processing 2s infinite ease;
+    display: none;
+}

@@ -1,0 +1,313 @@
+#all{
+    width: 100%;
+    display: none;
+    flex-direction: column;
+    background-color: #F2F2F2;
+}
+#head{
+    background-color: #F2F2F2;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    position: fixed;
+    top: 0;
+    box-shadow: 1px 0.1px 1px #AEAEAE;
+}
+#header{
+    margin: 15px;
+    border: 1px solid #656565;
+    border-radius: 8px;
+    width: 85%;
+    height: 45px;
+    display: flex;
+    align-items: center;
+}
+#header > span{
+    font-size: 14pt;
+    font-weight: 500;
+    margin-left: 10px;
+}
+#sec1{
+    width: 100%;
+    height: 100dvh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+#txt1{
+    margin-top: 110px;
+    font-size: 17pt;
+    font-weight: 600;
+}
+#txt2{
+    margin-top: 12px;
+    font-size: 13pt;
+    color: #5A5A5A;
+    font-weight: 300;
+}
+#buttons{
+    margin-top: 15px;
+    display: flex;
+    justify-content: center;
+    width: 85%;
+}
+#criar-conta{
+    background-color: #00ECFF;
+    border-radius: 10px;
+    width: 120px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 11pt;
+    font-weight: 400;
+    margin-right: 6px;
+}
+button{
+    transition: .5s;
+}
+button:hover{
+    transform: scale(1.06);
+}
+#logar{
+    border: 1.5px solid #00ECFF;
+    color: #001B39;
+    border-radius: 10px;
+    width: 120px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 11pt;
+    font-weight: 400;
+    margin-left: 6px;
+    background-color: #F2F2F2;
+}
+#img-div{
+    margin-top: 30px;
+    width: 85%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+#apresentacao-sec1{
+    width: 250px;
+}
+hr{
+    width: 100%;
+    height: 0.5px;
+    background-color: #7E7E7E;
+}
+#sec2{
+    height: 100dvh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+#txt1-2{
+    width: 100%;
+    font-size: 17pt;
+    font-weight: 600;
+    margin-top: 80px;
+}
+#carossel{
+    width: 100%;
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 500px;
+}
+#demo{
+    width: 85%;
+    height: 300px;
+    overflow: hidden;
+}
+#demo #imgs{
+    width: 500%;
+    animation-name: animacao;
+    animation-duration: 20s;
+    animation-iteration-count: infinite;
+    display: flex;
+}
+#demo #imgs div{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+#demo #imgs div span{
+    font-size: 14pt;
+    font-weight: 500;
+}
+@keyframes animacao {
+    0%{
+        margin-left: 0;
+    }
+    20%{
+        margin-left: 0;
+    }
+    25%{
+        margin-left: -100%;
+    }
+    45%{
+        margin-left: -100%;
+    }
+    50%{
+        margin-left: -200%;
+    }
+    70%{
+        margin-left: -200%;
+    }
+    75%{
+        margin-left: -300%;
+    }
+    95%{
+        margin-left: -300%;
+    }
+    100%{
+        margin-left: -400%;
+    }
+}
+#sec3{
+    height: 100dvh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+#txt1-3{
+    width: 100%;
+    font-size: 17pt;
+    font-weight: 600;
+    margin-top: 80px;
+}
+#sec4{
+    height: 100dvh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+#txt1-4{
+    width: 100%;
+    font-size: 17pt;
+    font-weight: 600;
+    margin-top: 70px;
+}
+#vendedores{
+    font-size: 15pt;
+    font-weight: 500;
+    margin-top: 5px;
+    color: #5A5A5A;
+}
+#compradores{
+    font-size: 15pt;
+    font-weight: 500;
+    margin-top: 75px;
+    color: #5A5A5A;
+}
+#comecar-vender{
+    width: 65%;
+    height: 50px;
+    background-color: #00ECFF;
+    border-radius: 12px;
+    font-size: 12pt;
+}
+#comecar-comprar{
+    width: 65%;
+    height: 50px;
+    border: 1.5px solid #00ECFF;
+    border-radius: 12px;
+    background-color: #F2F2F2;
+    font-size: 12pt;
+}
+#cards{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+#cards div{
+    display: flex;
+    align-items: center;
+    width: 100%;
+}
+#cards div div{
+    width: 100%;
+    height: 270px;
+    border: 0.5px solid #00334E;
+    margin: 5px;
+    border-radius: 12px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#cards div div span{
+    margin: 3px 0 7px 0;
+    font-size: 15pt;
+    font-weight: 600;
+    width: 100%;
+    height: 55px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#cards div div p{
+    font-size: 12pt;
+    font-weight: 300;
+    margin: 7px 0 7px 0;
+    color: #5A5A5A;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 130px;
+}
+#assinatura{
+    margin: 7px 0 3px 0;
+    width: 85%;
+    height: 35px;
+    border-radius: 10px;
+    background-color: #00FF6F;
+}
+#exp{
+    margin: 7px 0 3px 0;
+    width: 85%;
+    height: 35px;
+    border-radius: 10px;
+    background-color: #00ECFF;
+}
+#sec5{
+    height: 100dvh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+#conectar{
+    width: 100%;
+    height: 175px;
+}
+#cntt{
+    width: 75%;
+    text-decoration: none;
+}
+#trm{
+    width: 100%;
+    text-decoration: none;
+}
+#fim a span{
+    font-size: 10pt;
+    font-weight: 500;
+    color: #A6A6A6;
+}
