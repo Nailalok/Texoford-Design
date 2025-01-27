@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Cadastro Texoford</title>
+    <link rel="stylesheet" href="login.css"/>
+    <link rel="stylesheet" href="../reset.css"/>
+    <link rel="stylesheet" href="../animProcessing.css"/>
+    <link rel="stylesheet" href="../bottonProcessing.css"/>
+    <script defer src="login.js"></script>
+</head>
+<body>
+    <section id="tela-process">
+        <span>Texoford</span>
+        <div id="progresso">
+            <div id="progressando">
+                
+            </div>
+        </div>
+    </section>
+    <span id="tema">Texoford</span>
+    <form id="card">
+            <select id="tipo">
+                <option value="usuario">Usuário</option>
+                <option value="empresa">Empresa(Loja)</option>
+            </select>
+            <input type="email" id="email" placeholder="E-mail"/>
+            <input type="password" id="senha" placeholder="Senha"/>
+            <div id="falha">
+                <p>Credenciais incorretas</p>
+            </div>
+            <button id="login" type="submit"><span id="txt">Login</span><div id="process"></div></button>
+    </form>
+    <p>Ao fazeres o login concordas com os nossos <br /><a href="ko">Termos de serviço</a> e <a href="ko">Política de privacidade</a></p>
+    <br />
+    <p>Ainda não tem uma conta? <a href="../cadastro/cadastro.html">Criar conta</a></p>
+</body>
+</html>
